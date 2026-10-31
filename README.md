@@ -1,4 +1,3 @@
-we're still working on it so don't use it ok?
 
 <div align="center">
     <img src=".github/assets/endcord-banner.png" alt="Endcord" width="500" />
@@ -84,7 +83,7 @@ Requirements: JDK 21 and the Android SDK (platform 36). Create a `local.properti
 ```sh
 ./gradlew :Endcord:make           # core: Endcord/build/outputs/Endcord.zip
 ./gradlew :Injector:make          # injector
-cd installer && ./gradlew :app:assembleDebug   # installer APK
+cd installer && ./gradlew :app:assembleDebug   # installer APK.
 node scripts/i18n-sync.js         # check translations
 ```
 
