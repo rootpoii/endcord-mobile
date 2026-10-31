@@ -14,6 +14,7 @@ const pem = process.env.ENDCORD_RELEASE_KEY;
 if (!folder || !pem) throw new Error("Usage: ENDCORD_RELEASE_KEY=<PEM> node scripts/sign-release.mjs <folder>");
 
 const key = createPrivateKey(pem);
+/** @type {Record<string, { size: number; sha256: string; }>} */
 const files = {};
 for (const name of readdirSync(folder).filter(n => /^endcord(\.v\d+\.hbc|\.min\.js)$/.test(n)).sort()) {
     const file = path.join(folder, name);
