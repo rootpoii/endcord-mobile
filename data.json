@@ -1,0 +1,11 @@
+{
+  "bundle": "endcord.min.js",
+  "bytecode": ["endcord.v98.hbc","endcord.v99.hbc"],
+  "loader": "endcord-xposed.apk",
+  "installer": "endcord-installer.apk",
+  "classicInstaller": "endcord-classic-installer.apk",
+  "loaderVersion": "1.0.0",
+  "loaderVersionCode": 1,
+  "commit": "742e7772c63b7e945d3c2899797249bf6509749d",
+  "builtAt": "2026-10-31T16:36:23Z"
+}
